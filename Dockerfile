@@ -17,7 +17,9 @@ RUN apt-get update \
     git mercurial xvfb \
     locales sudo openssh-client ca-certificates tar gzip parallel \
     net-tools netcat unzip zip bzip2 gnupg curl wget \
-    awscli zsh
+    awscli zsh python3.6 python3-pip
+
+RUN pip3 install awscli awslogs boto3 jsonmerge
 
 
 # Set timezone to UTC by default
