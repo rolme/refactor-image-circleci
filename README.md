@@ -2,6 +2,8 @@
 
 This is a docker image used by circleCI to test the Refactor Service. It is based on node:12.12.0-buster image that also installs AWS CLI and Python.
 
+# Ask Admin to join the Refactor Docker
+
 ## Testing and deployment
 
 ```sh
